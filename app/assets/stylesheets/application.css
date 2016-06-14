@@ -1,0 +1,91 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body {
+  text-align: center;
+  background-image: url(/assets/gh.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: helvetica;
+}
+
+div#copy {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  background-position: center; 
+  color: #333;
+  font-family: helvetica;
+  width: 300px;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  color: #333;
+  text-align: center;
+  font-size: 22px;
+}
+
+div#info {
+  text-align: left;
+}
+
+div#octocats {
+  background: rgba(255, 255, 255, 0.92);
+  background-position: center; 
+  color: #333;
+  width: 1050px;
+  padding: 5px;
+}
+
+div#resources {
+  text-align: left;
+  background: rgba(255, 255, 255, 0.92);
+  background-position: center; 
+  color: #333;
+  width: 300px;
+  padding-left: 20px;
+}
+
+ul#nav {
+  padding: 10px;
+  background: #9AC0CD;
+}
+
+li#navli {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+ul {
+  padding: 5px;
+}
+
+li {
+  padding: 5px;
+}
+
+a:link, a:visited  { 
+  color: #00688B;
+  text-decoration: none;
+}
+a:hover, a:visited:active { 
+  color: #476A34;
+  text-decoration: none;
+}
